@@ -68,7 +68,11 @@ def main(args):
     print('\n3rd solution - recursion.')    
     print('Number', n, ': ', fib_recursion(n - 1))
     return 0
-    
+
+# Program begins in main function.
+# If you run program as main file '__name__' will be written by '__main__'. Code will run after start.
+# If you run program as module '__name__' will be written by '_file_name__'('__Lotto__').
+# Code will not run after start. You need to call a function.    
 if __name__ == '__main__':
     import sys
     sys.exit(main(sys.argv))
